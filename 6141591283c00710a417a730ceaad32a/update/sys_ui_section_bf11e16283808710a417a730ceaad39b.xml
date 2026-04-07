@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="bf11e16283808710a417a730ceaad39b" sys_domain="global" table="x_1806200_nowflix_director" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-07 14:42:23</sys_created_on>
+            <sys_id>3d5169aa83808710a417a730ceaad33d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1806200_nowflix_director" sys_domain="global" view="Default view">bf11e16283808710a417a730ceaad39b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-07 14:42:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1806200_nowflix_director</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-07 14:41:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf11e16283808710a417a730ceaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1806200_nowflix_director</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Nowflix" source="x_1806200_nowflix">6141591283c00710a417a730ceaad32a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
+            <sys_update_name>sys_ui_section_bf11e16283808710a417a730ceaad39b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-07 14:41:26</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

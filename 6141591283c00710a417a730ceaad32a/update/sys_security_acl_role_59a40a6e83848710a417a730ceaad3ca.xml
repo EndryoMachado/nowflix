@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-07 17:16:38</sys_created_on>
+        <sys_id>59a40a6e83848710a417a730ceaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1806200_nowflix_suggestion.x_1806200_nowflix.moderator</sys_name>
+        <sys_package display_value="Nowflix" source="x_1806200_nowflix">6141591283c00710a417a730ceaad32a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
+        <sys_security_acl display_value="x_1806200_nowflix_suggestion">85a4c66e83848710a417a730ceaad3fc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_59a40a6e83848710a417a730ceaad3ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-07 17:16:38</sys_updated_on>
+        <sys_user_role display_value="x_1806200_nowflix.moderator" name="x_1806200_nowflix.moderator">6941591283c00710a417a730ceaad362</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
