@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">104570bd83000310a417a730ceaad36a</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-07 16:33:20</sys_created_on>
+        <sys_id>3ababd6a83448710a417a730ceaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Nowflix" source="x_1806200_nowflix">6141591283c00710a417a730ceaad32a</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-07 16:33:20</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
