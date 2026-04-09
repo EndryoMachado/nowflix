@@ -53,7 +53,7 @@
         <pricing_implications>false</pricing_implications>
         <published_ref/>
         <question_text>Average rating</question_text>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -82,14 +82,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-09 14:22:05</sys_created_on>
         <sys_id>fbdf2fc383cc8b10a417a730ceaad3be</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Average rating</sys_name>
         <sys_package display_value="Nowflix" source="x_1806200_nowflix">6141591283c00710a417a730ceaad32a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
         <sys_update_name>item_option_new_fbdf2fc383cc8b10a417a730ceaad3be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 14:25:47</sys_updated_on>
+        <sys_updated_on>2026-04-09 21:07:58</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
