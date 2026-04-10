@@ -7,8 +7,8 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Media Review">8a91d7fa834c0b10a417a730ceaad3dc</cat_item>
-        <cat_variable>IO:a2767fb283804b10a417a730ceaad36e</cat_variable>
+        <cat_item display_value="Media Review Scripting">2fdfef87838c8b10a417a730ceaad3d8</cat_item>
+        <cat_variable>IO:f7df2fc383cc8b10a417a730ceaad37c</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -33,19 +33,19 @@
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-08 20:29:06</sys_created_on>
+        <sys_created_on>2026-04-09 14:22:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>f539373a83804b10a417a730ceaad333</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_id>c0ef6fc383cc8b10a417a730ceaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Load Poster</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_1806200_nowflix">6141591283c00710a417a730ceaad32a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
-        <sys_update_name>catalog_script_client_f539373a83804b10a417a730ceaad333</sys_update_name>
+        <sys_update_name>catalog_script_client_c0ef6fc383cc8b10a417a730ceaad30f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 13:51:36</sys_updated_on>
+        <sys_updated_on>2026-04-09 14:22:05</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
