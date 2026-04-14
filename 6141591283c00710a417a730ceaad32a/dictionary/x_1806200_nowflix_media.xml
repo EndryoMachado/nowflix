@@ -3,11 +3,12 @@
         <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
         <element label="Country" max_length="250" name="country" type="string"/>
         <element label="Production" max_length="250" name="production" type="string"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
         <element label="Awards" max_length="250" name="awards" type="string"/>
         <element label="Writers" max_length="4000" name="writers" type="string"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
+        <element choice="1" default="Draft" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
                 <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>

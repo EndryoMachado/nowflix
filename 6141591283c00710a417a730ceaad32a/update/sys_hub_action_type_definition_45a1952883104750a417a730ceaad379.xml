@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>integration_omdb_api</internal_name>
-        <label_cache>[{"name":"{{action.title}}","label":"action➛Title","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.year}}","label":"action➛Year","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].endpoint}}","label":"step➛Variable initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d32c9b96-5bd2-4611-a6cd-5bcd8d682743"}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].apikey}}","label":"step➛Variable initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c368f59c-72b1-46a9-95cb-e409e5c95e1e"}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].plot}}","label":"step➛Variable initialization➛Plot","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"33542637-1f7c-4478-ac0d-a2ed4dad47ac"}},{"name":"{{step[4e8b90e9-a3f8-44dc-9991-dc0e5b941cef].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b1f47a05-ef54-46a6-89d5-a83cf089d4cc].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDa58f15681c9047505b676c3e411cedfa","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"c28432ae-ee67-449e-835e-27e97ae28738"}}]</label_cache>
+        <label_cache>[{"name":"{{action.title}}","label":"action➛Title","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.year}}","label":"action➛Year","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].endpoint}}","label":"step➛Variable initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d32c9b96-5bd2-4611-a6cd-5bcd8d682743"}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].apikey}}","label":"step➛Variable initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c368f59c-72b1-46a9-95cb-e409e5c95e1e"}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].plot}}","label":"step➛Variable initialization➛Plot","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"33542637-1f7c-4478-ac0d-a2ed4dad47ac"}},{"name":"{{step[4e8b90e9-a3f8-44dc-9991-dc0e5b941cef].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b1f47a05-ef54-46a6-89d5-a83cf089d4cc].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDa58f15681c9047505b676c3e411cedfa","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"c28432ae-ee67-449e-835e-27e97ae28738"}},{"name":"{{step[4e8b90e9-a3f8-44dc-9991-dc0e5b941cef].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e8b90e9-a3f8-44dc-9991-dc0e5b941cef].__step_status__}}","label":"step➛REST step➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b1f47a05-ef54-46a6-89d5-a83cf089d4cc].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>6601216c83904750a417a730ceaad389</master_snapshot>
         <master_snapshot_digest/>
         <name>Integration OMDB Api</name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>45a1952883104750a417a730ceaad379</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Integration OMDB Api</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_1806200_nowflix">6141591283c00710a417a730ceaad32a</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_45a1952883104750a417a730ceaad379</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-13 19:57:25</sys_updated_on>
+        <sys_updated_on>2026-04-14 13:25:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -463,7 +463,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a98f156883904750a417a730ceaad3fa</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -471,7 +471,7 @@
         <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-13 19:57:22</sys_updated_on>
+        <sys_updated_on>2026-04-14 13:25:12</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1313,7 +1313,7 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e292612083d04750a417a730ceaad349</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1321,7 +1321,7 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-13 19:57:22</sys_updated_on>
+        <sys_updated_on>2026-04-14 13:25:12</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -1476,14 +1476,14 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-13 18:47:55</sys_created_on>
         <sys_id>bc13d5e883104750a417a730ceaad34f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-13 19:57:22</sys_updated_on>
+        <sys_updated_on>2026-04-14 13:25:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1509,7 +1509,35 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-13 18:47:55</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c113d5e883104750a417a730ceaad370"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c113d5e883104750a417a730ceaad370^sys_idNOT IN5ac299b083dc8750a417a730ceaad3fe,9ec299b083dc8750a417a730ceaad3fe"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 13/04/2026 15:47:55">c113d5e883104750a417a730ceaad370</action_status_metadata_id>
+        <condition>{{step[4e8b90e9-a3f8-44dc-9991-dc0e5b941cef].__step_status__.code}}=1</condition>
+        <dont_treat_as_error>true</dont_treat_as_error>
+        <label>OMDB Step failure</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration Error: Check the OMDB URL"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-14 13:25:07</sys_created_on>
+        <sys_id>5ac299b083dc8750a417a730ceaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-14 13:25:07</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 13/04/2026 15:47:55">c113d5e883104750a417a730ceaad370</action_status_metadata_id>
+        <condition>{{step[b1f47a05-ef54-46a6-89d5-a83cf089d4cc].__step_status__.code}}=1</condition>
+        <dont_treat_as_error>true</dont_treat_as_error>
+        <label>Parse Step Error</label>
+        <order>2</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"400"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration Error: Check the OMDB URL Resourse"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-14 13:25:07</sys_created_on>
+        <sys_id>9ec299b083dc8750a417a730ceaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-14 13:25:07</sys_updated_on>
+    </sys_hub_status_condition>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>title</element>
         <help/>
@@ -1654,17 +1682,17 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Integration OMDB Api">45a1952883104750a417a730ceaad379</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1f01616c83904750a417a730ceaad3d2","name":"plan","plan_signature":null}}</plan>
-        <snapshot>bef2a16083d04750a417a730ceaad3b1</snapshot>
+        <snapshot>8cd25db083dc8750a417a730ceaad3f6</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-13 19:48:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1f01616c83904750a417a730ceaad3d2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-13 19:57:26</sys_updated_on>
+        <sys_updated_on>2026-04-14 13:25:16</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>package_private</access>
@@ -1681,7 +1709,7 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <description/>
         <flow_priority/>
         <internal_name>integration_omdb_api</internal_name>
-        <label_cache>[{"name":"{{action.title}}","label":"action➛Title","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.year}}","label":"action➛Year","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].endpoint}}","label":"step➛Variable initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d32c9b96-5bd2-4611-a6cd-5bcd8d682743"}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].apikey}}","label":"step➛Variable initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c368f59c-72b1-46a9-95cb-e409e5c95e1e"}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].plot}}","label":"step➛Variable initialization➛Plot","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"33542637-1f7c-4478-ac0d-a2ed4dad47ac"}},{"name":"{{step[4e8b90e9-a3f8-44dc-9991-dc0e5b941cef].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b1f47a05-ef54-46a6-89d5-a83cf089d4cc].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDa58f15681c9047505b676c3e411cedfa","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"c28432ae-ee67-449e-835e-27e97ae28738"}}]</label_cache>
+        <label_cache>[{"name":"{{action.title}}","label":"action➛Title","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.type}}","label":"action➛Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.year}}","label":"action➛Year","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].endpoint}}","label":"step➛Variable initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d32c9b96-5bd2-4611-a6cd-5bcd8d682743"}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].apikey}}","label":"step➛Variable initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"c368f59c-72b1-46a9-95cb-e409e5c95e1e"}},{"name":"{{step[0965bf59-1fbd-40e5-86ca-1969af5101bf].plot}}","label":"step➛Variable initialization➛Plot","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"33542637-1f7c-4478-ac0d-a2ed4dad47ac"}},{"name":"{{step[4e8b90e9-a3f8-44dc-9991-dc0e5b941cef].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[b1f47a05-ef54-46a6-89d5-a83cf089d4cc].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"FDa58f15681c9047505b676c3e411cedfa","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"c28432ae-ee67-449e-835e-27e97ae28738"}},{"name":"{{step[4e8b90e9-a3f8-44dc-9991-dc0e5b941cef].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[4e8b90e9-a3f8-44dc-9991-dc0e5b941cef].__step_status__}}","label":"step➛REST step➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[b1f47a05-ef54-46a6-89d5-a83cf089d4cc].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Integration OMDB Api</name>
         <natlang/>
@@ -1694,7 +1722,7 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6601216c83904750a417a730ceaad389</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1702,7 +1730,7 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-13 19:57:24</sys_updated_on>
+        <sys_updated_on>2026-04-14 13:24:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2231,7 +2259,7 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b601616c83904750a417a730ceaad305</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2239,7 +2267,7 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-13 19:57:24</sys_updated_on>
+        <sys_updated_on>2026-04-14 13:25:14</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2950,7 +2978,7 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>72f2a16083d04750a417a730ceaad386</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2958,7 +2986,7 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-13 19:57:24</sys_updated_on>
+        <sys_updated_on>2026-04-14 13:25:14</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -3113,14 +3141,14 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-13 19:48:57</sys_created_on>
         <sys_id>7e01616c83904750a417a730ceaad31f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-13 19:57:25</sys_updated_on>
+        <sys_updated_on>2026-04-14 13:25:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3146,7 +3174,35 @@ outputs.endpoint = gs.getProperty("x_1806200_nowflix.integration_endpoint", "");
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-13 19:48:57</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f601616c83904750a417a730ceaad332"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f601616c83904750a417a730ceaad332^sys_idNOT IN00d25db083dc8750a417a730ceaad3f5,4cd25db083dc8750a417a730ceaad3f4"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 13/04/2026 16:48:57">f601616c83904750a417a730ceaad332</action_status_metadata_id>
+        <condition>{{step[b1f47a05-ef54-46a6-89d5-a83cf089d4cc].__step_status__.code}}=1</condition>
+        <dont_treat_as_error>true</dont_treat_as_error>
+        <label>Parse Step Error</label>
+        <order>2</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"400"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration Error: Check the OMDB URL Resourse"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-14 13:25:15</sys_created_on>
+        <sys_id>00d25db083dc8750a417a730ceaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-14 13:25:15</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 13/04/2026 16:48:57">f601616c83904750a417a730ceaad332</action_status_metadata_id>
+        <condition>{{step[4e8b90e9-a3f8-44dc-9991-dc0e5b941cef].__step_status__.code}}=1</condition>
+        <dont_treat_as_error>true</dont_treat_as_error>
+        <label>OMDB Step failure</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration Error: Check the OMDB URL"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-14 13:25:15</sys_created_on>
+        <sys_id>4cd25db083dc8750a417a730ceaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-14 13:25:15</sys_updated_on>
+    </sys_hub_status_condition>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>year</element>
         <help/>
