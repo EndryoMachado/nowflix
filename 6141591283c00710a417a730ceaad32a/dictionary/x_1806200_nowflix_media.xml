@@ -8,19 +8,19 @@
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
         <element label="Awards" max_length="250" name="awards" type="string"/>
         <element label="Writers" max_length="4000" name="writers" type="string"/>
-        <element choice="1" default="Draft" label="State" max_length="40" name="state" type="choice">
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
-                <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
             </choice>
         </element>
         <element choice="1" default="1" label="Integration state" max_length="40" name="integration_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Integrating" sequence="200" value="2"/>
-                <element inactive_on_update="false" label="Integration Failure" sequence="400" value="7"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="400" value="4"/>
                 <element inactive_on_update="false" label="Starting" sequence="100" value="1"/>
                 <element inactive_on_update="false" label="Integration Success" sequence="300" value="3"/>
-                <element inactive_on_update="false" label="Integration not Found" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="Media not Found" sequence="500" value="7"/>
             </choice>
         </element>
         <element label="Genre" max_length="1024" name="genre" reference="x_1806200_nowflix_genre" type="glide_list"/>
