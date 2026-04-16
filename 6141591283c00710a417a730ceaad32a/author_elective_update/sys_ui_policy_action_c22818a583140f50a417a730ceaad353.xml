@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>integration_state</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 17:04:36</sys_created_on>
+        <sys_id>c22818a583140f50a417a730ceaad353</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>integration_state</sys_name>
+        <sys_package display_value="Nowflix" source="x_1806200_nowflix">6141591283c00710a417a730ceaad32a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c22818a583140f50a417a730ceaad353</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 17:06:13</sys_updated_on>
+        <table>x_1806200_nowflix_media</table>
+        <ui_policy display_value="Turn all fields read-only when state is completed">e227d42583140f50a417a730ceaad3b3</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=c22818a583140f50a417a730ceaad353"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">6141591283c00710a417a730ceaad32a</application>
+        <file_path/>
+        <instance_id>d7eee905ff912ad8c80bf8e4fc4fd9f8</instance_id>
+        <instance_name>dev340351</instance_name>
+        <name>sys_ui_policy_action_c22818a583140f50a417a730ceaad353</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>integration_state</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 17:04:36</sys_created_on><sys_id>c22818a583140f50a417a730ceaad353</sys_id><sys_mod_count>6</sys_mod_count><sys_name>integration_state</sys_name><sys_package display_value="Nowflix" source="x_1806200_nowflix">6141591283c00710a417a730ceaad32a</sys_package><sys_policy/><sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope><sys_update_name>sys_ui_policy_action_c22818a583140f50a417a730ceaad353</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 17:06:13</sys_updated_on><table>x_1806200_nowflix_media</table><ui_policy display_value="Turn all fields read-only when state is completed">e227d42583140f50a417a730ceaad3b3</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=c22818a583140f50a417a730ceaad353"/></record_update>]]></payload>
+        <payload_hash>286527748</payload_hash>
+        <record_name>integration_state</record_name>
+        <reverted_from/>
+        <source>d9a0779683444710a417a730ceaad3c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 17:06:13</sys_created_on>
+        <sys_id>989850e583140f50a417a730ceaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d9741ed250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 17:06:13</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>189850e597140f505de4701a5624cf3a</update_guid>
+        <update_guid_history>189850e597140f505de4701a5624cf3a:286527748,21789ca5a9140f504f4ac2fce84ee47f:481419014,526850e5de140f502dd6958b97717e32:-1447192036,2d5898a5d6140f50788eda729eedde0b:-1376422454,d6481ca577140f50cd52bc646ddd35c8:882616740,db38d8a55a140f50da6f313ebc212047:-257428972,bc3898a59c140f509a6fe9105327c400:-1197343212</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 17:10:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>72ea1183466c40aeb569b187347c8169</sys_id>
+        <sys_metadata>c22818a583140f50a417a730ceaad353</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>integration_state</sys_name>
+        <sys_package display_value="Nowflix" source="x_1806200_nowflix">6141591283c00710a417a730ceaad32a</sys_package>
+        <sys_parent display_value="Turn all fields read-only when state is completed">e227d42583140f50a417a730ceaad3b3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
+        <sys_scope_delete display_value="">048bf626db0d44088037b02dd893de90</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_c22818a583140f50a417a730ceaad353</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_c22818a583140f50a417a730ceaad353">989850e583140f50a417a730ceaad33b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 17:10:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
