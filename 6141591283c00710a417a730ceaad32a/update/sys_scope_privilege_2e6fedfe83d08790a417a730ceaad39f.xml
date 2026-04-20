@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>omdb_integration_user</sys_created_by>
+        <sys_created_on>2026-04-20 20:38:03</sys_created_on>
+        <sys_id>2e6fedfe83d08790a417a730ceaad39f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScriptableFlowRunnerResult.getOutputs</sys_name>
+        <sys_package display_value="Nowflix" source="x_1806200_nowflix">6141591283c00710a417a730ceaad32a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">6141591283c00710a417a730ceaad32a</sys_scope>
+        <sys_update_name>sys_scope_privilege_2e6fedfe83d08790a417a730ceaad39f</sys_update_name>
+        <sys_updated_by>omdb_integration_user</sys_updated_by>
+        <sys_updated_on>2026-04-20 20:38:03</sys_updated_on>
+        <target_name>ScriptableFlowRunnerResult.getOutputs</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>
